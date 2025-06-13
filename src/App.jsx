@@ -9,7 +9,7 @@ function App() {
 
   const lightTheme = () => setThemeMode('light')
   const darkTheme = () => setThemeMode('dark')
-
+  
   useEffect(() => {
     const html = document.documentElement
     html.classList.remove('light', 'dark')
