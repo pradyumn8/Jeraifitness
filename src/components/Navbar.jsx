@@ -5,6 +5,8 @@ import { faBars, faXmark } from '@fortawesome/free-solid-svg-icons';
 
 
 import { Link, NavLink } from 'react-router-dom';
+import ThemeBtn from './ThemeBtn';
+
 
 export default function Navbar() {
     const [showMenu, setShowMenu] = useState(false);
@@ -42,14 +44,15 @@ export default function Navbar() {
                                 />
                             </svg>
                         </div>
-                        {/* <button className="flex items-center gap-2 bg-white text-black font-medium text-sm px-3 py-2 shadow border ">
-                            <span>EN</span>
-                            <img src={assets.globe} alt="Globe" className="w-4 h-4 object-contain" />
-                        </button> */}
                         <button className="hidden md:flex items-center gap-2 bg-white text-black font-medium text-sm px-3 py-2 shadow border">
                             <span>EN</span>
                             <img src={assets.globe} alt="Globe" className="w-4 h-4 object-contain" />
                         </button>
+                        
+                        {/* Btn for changing theme */}
+                        <div className="hidden lg:block md:hidden sm:hidden">
+                            <ThemeBtn />
+                        </div>
 
                         {/* Menu icon (hamburger) */}
                         <div

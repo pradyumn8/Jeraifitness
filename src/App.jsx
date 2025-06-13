@@ -1,11 +1,27 @@
-import React from 'react'
+import { useState, useEffect } from 'react'
+import { ThemeProvider } from './contexts/theme'
+import ThemeBtn from './components/ThemeBtn'
 import Navbar from './components/Navbar'
 
-const App = () => {
+function App() {
+  const [themeMode, setThemeMode] = useState('light')
+
+  const lightTheme = () => setThemeMode('light')
+  const darkTheme = () => setThemeMode('dark')
+
+  useEffect(() => {
+    const html = document.documentElement
+    html.classList.remove('light', 'dark')
+    html.classList.add(themeMode)
+  }, [themeMode])
+
   return (
     <>
-    <Navbar/>
-    </>
+    <ThemeProvider value={{ themeMode, lightTheme, darkTheme }}>
+      
+        <Navbar />
+    </ThemeProvider>
+</>
   )
 }
 
