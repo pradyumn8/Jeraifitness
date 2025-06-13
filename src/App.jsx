@@ -2,6 +2,7 @@ import { useState, useEffect } from 'react'
 import { ThemeProvider } from './contexts/theme'
 import ThemeBtn from './components/ThemeBtn'
 import Navbar from './components/Navbar'
+import Hero from './components/Hero'
 
 function App() {
   const [themeMode, setThemeMode] = useState('light')
@@ -20,6 +21,7 @@ function App() {
     <ThemeProvider value={{ themeMode, lightTheme, darkTheme }}>
       
         <Navbar />
+        <Hero/>
     </ThemeProvider>
 </>
   )
