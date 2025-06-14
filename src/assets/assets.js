@@ -26,6 +26,12 @@ import CLIMBER from '../assets/CLIMBER.avif'
 import CLIMBERJSTP from '../assets/CLIMBERJSTP.avif'
 import Multi from '../assets/Multi.avif'
 import curve from '../assets/curve.avif'
+import Layer from '../assets/Layer.avif'
+import AppStore from '../assets/AppStore.avif'
+import iPhone from '../assets/iPhone.avif'
+import search from '../assets/search.avif'
+import gym from '../assets/gym.avif'
+import msg from '../assets/msg.avif'
 
 
 export const assets = {
@@ -56,5 +62,11 @@ export const assets = {
     DING,
     CLIMBER,
     CLIMBERJSTP,
-    curve
-}
+    curve,
+    AppStore,
+    Layer,
+    iPhone,
+    search,
+    gym,
+    msg
+    }

@@ -6,6 +6,7 @@ import Hero from './components/Hero'
 import ProductItem from './components/ProductItem'
 import SentenceSwiper from './components/SentenceSwiper'
 import ArrivalProducts from './components/ArrivalProducts'
+import Experience from './components/Experience'
 
 function App() {
   const [themeMode, setThemeMode] = useState('light')
@@ -44,7 +45,7 @@ function App() {
       <ProductItem />
       <SentenceSwiper/>
       <ArrivalProducts/>
-      <ProductItem/>
+      <Experience/>
     </ThemeProvider>
   )
 }

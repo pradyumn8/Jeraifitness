@@ -19,7 +19,7 @@ const ArrivalProducts = () => {
     className="object-contain h-[400px] lg:h-[300px]"
   />
   <div className="text-center mt-12 mb-2">
-    <h3 className="text-sm font-bold">PEC FLY/REAR DELT</h3>
+    <h3 className="text-sm font-bold text-black dark:text-white">PEC FLY/REAR DELT</h3>
   </div>
 </div>
 
@@ -31,7 +31,7 @@ const ArrivalProducts = () => {
     className="object-contain h-[400px] lg:h-[300px]"
   />
   <div className="text-center mt-12 mb-2">
-    <h3 className="text-sm font-bold">STANDING MULTI ARMS</h3>
+    <h3 className="text-sm font-bold text-black dark:text-white">STANDING MULTI ARMS</h3>
   </div>
 </div>
 
@@ -44,7 +44,7 @@ const ArrivalProducts = () => {
     className="object-contain h-[400px] lg:h-[300px]"
   />
   <div className="text-center mt-12 mb-2">
-    <h3 className="text-sm font-bold">SEATED PEC FLY LATERAL RAISE <br /> COMBO</h3>
+    <h3 className="text-sm font-bold text-black dark:text-white">SEATED PEC FLY LATERAL RAISE <br /> COMBO</h3>
   </div>
 </div>
 
@@ -56,7 +56,7 @@ const ArrivalProducts = () => {
     className="object-contain h-[400px] lg:h-[300px]"
   />  
   <div className="text-center mt-12 mb-2">
-    <h3 className="text-sm font-bold">TWIN ADJUSTABLE PULLEY</h3>
+    <h3 className="text-sm font-bold text-black dark:text-white">TWIN ADJUSTABLE PULLEY</h3>
   </div>
 </div>
 
@@ -68,7 +68,7 @@ const ArrivalProducts = () => {
     className="object-contain h-[400px] lg:h-[300px]"
   />
   <div className="text-center mt-12 mb-2">
-    <h3 className="text-sm font-bold">MULTI LINEAR BENCH</h3>
+    <h3 className="text-sm font-bold text-black dark:text-white">MULTI LINEAR BENCH</h3>
   </div>
 </div>
 
@@ -80,7 +80,7 @@ const ArrivalProducts = () => {
     className="object-contain h-[400px] lg:h-[300px]"
   />
     <div className="text-center mt-12 mb-2">
-    <h3 className="text-sm font-bold">CURVE TREADMILL JCT - 700</h3>
+    <h3 className="text-sm font-bold text-black dark:text-white">CURVE TREADMILL JCT - 700</h3>
   </div>
 </div>
 
@@ -92,7 +92,7 @@ const ArrivalProducts = () => {
     className="object-contain h-[400px] lg:h-[300px]"
   />
   <div className="text-center mt-12 mb-2">
-    <h3 className="text-sm font-bold">CURVE TREADMILL JCT - 800</h3>
+    <h3 className="text-sm font-bold text-black dark:text-white">CURVE TREADMILL JCT - 800</h3>
   </div>
 </div>
 
@@ -104,7 +104,7 @@ const ArrivalProducts = () => {
     className="object-contain h-[400px] lg:h-[300px]"
   />
   <div className="text-center mt-12 mb-2">
-    <h3 className="text-sm font-bold">STEP-UP CLIMBER JSTP - 07</h3>
+    <h3 className="text-sm font-bold text-black dark:text-white">STEP-UP CLIMBER JSTP - 07</h3>
   </div>
 </div>
 
@@ -115,9 +115,12 @@ const ArrivalProducts = () => {
     alt="PEC FLY/REAR DELT"
     className="object-contain h-[400px] lg:h-[300px]"
   />
-   <div className="text-center mt-12 mb-2">
-    <h3 className="text-sm font-bold">STEP-UP CLIMBER JSTP - 10</h3>
-  </div>
+<div className="text-center mt-12 mb-2">
+  <h3 className="text-sm font-bold text-black dark:text-white">
+    STEP-UP CLIMBER JSTP - 10
+  </h3>
+</div>
+
 </div>
 
 
