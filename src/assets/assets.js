@@ -12,7 +12,9 @@ import assetImg6 from '../assets/6.avif';
 import assetImg8 from '../assets/8.avif';
 import assetImg9 from '../assets/9.avif';
 import assetImg10 from '../assets/10.avif';
-
+import PTS from '../assets/PTS.avif'
+import Delt from '../assets/Delt.avif'
+import Treaadmills from '../assets/Treaadmills.avif'
 
 
 export const assets = {
@@ -27,8 +29,10 @@ export const assets = {
     assetImg2,
     assetImg5,
     assetImg6,
+    assetImg8,
     assetImg9,
     assetImg10,
-
-
+    PTS,
+    Treaadmills,
+    Delt
 }

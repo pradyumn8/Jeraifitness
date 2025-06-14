@@ -3,6 +3,7 @@ import { ThemeProvider } from './contexts/theme'
 import ThemeBtn from './components/ThemeBtn'
 import Navbar from './components/Navbar'
 import Hero from './components/Hero'
+import ProductItem from './components/ProductItem'
 
 function App() {
   const [themeMode, setThemeMode] = useState('light')
@@ -18,10 +19,10 @@ function App() {
 
   return (
     <>
-    <ThemeProvider value={{ themeMode, lightTheme, darkTheme }}>
-      
+    <ThemeProvider value={{ themeMode, lightTheme, darkTheme }}>  
         <Navbar />
         <Hero/>
+        <ProductItem/>
     </ThemeProvider>
 </>
   )

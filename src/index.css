@@ -13,3 +13,10 @@
 h1 {
   font-family: 'Ethnocentric', sans-serif;
 }
+
+/* dark mode apply in body */
+@layer base {
+  body {
+    @apply bg-white dark:bg-black;
+  }
+}

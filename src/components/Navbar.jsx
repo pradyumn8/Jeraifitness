@@ -76,7 +76,7 @@ export default function Navbar() {
                             <input
                                 type="text"
                                 placeholder="Search"
-                                className="w-full text-sm pl-3 pr-8 py-2 bg-white border border-gray-300 focus:ring-2 focus:outline-none rounded"
+                                className="w-full text-sm pl-3 pr-8 py-2 bg-white border border-gray-300 focus:ring-2 focus:outline-none"
                             />
                             <svg
                                 className="w-5 h-5 absolute right-2 top-1/2 transform -translate-y-1/2 text-red-500 pointer-events-none"
