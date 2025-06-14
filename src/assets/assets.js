@@ -16,6 +16,16 @@ import PTS from '../assets/PTS.avif'
 import Delt from '../assets/Delt.avif'
 import Treaadmills from '../assets/Treaadmills.avif'
 import Treapool from '../assets/Treapool.png'
+import treadmill from '../assets/treadmill.avif'
+import TAPDSC from '../assets/TAPDSC.jpg'
+import REARDELT from '../assets/REARDELT.avif'
+import READMILLJCT from '../assets/READMILLJCT.avif'
+import RAISE from '../assets/RAISE.avif'
+import DING from '../assets/DING.avif'
+import CLIMBER from '../assets/CLIMBER.avif'
+import CLIMBERJSTP from '../assets/CLIMBERJSTP.avif'
+import Multi from '../assets/Multi.avif'
+import curve from '../assets/curve.avif'
 
 
 export const assets = {
@@ -36,5 +46,15 @@ export const assets = {
     PTS,
     Treaadmills,
     Treapool,
-    Delt
+    Delt,
+    treadmill,
+    TAPDSC,
+    REARDELT,
+    READMILLJCT,
+    RAISE,
+    Multi,
+    DING,
+    CLIMBER,
+    CLIMBERJSTP,
+    curve
 }

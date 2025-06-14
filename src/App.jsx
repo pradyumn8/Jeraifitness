@@ -4,6 +4,8 @@ import ThemeBtn from './components/ThemeBtn'
 import Navbar from './components/Navbar'
 import Hero from './components/Hero'
 import ProductItem from './components/ProductItem'
+import SentenceSwiper from './components/SentenceSwiper'
+import ArrivalProducts from './components/ArrivalProducts'
 
 function App() {
   const [themeMode, setThemeMode] = useState('light')
@@ -40,6 +42,9 @@ function App() {
       <Navbar />
       <Hero />
       <ProductItem />
+      <SentenceSwiper/>
+      <ArrivalProducts/>
+      <ProductItem/>
     </ThemeProvider>
   )
 }
