@@ -34,6 +34,12 @@ import gym from '../assets/gym.avif'
 import msg from '../assets/msg.avif'
 import magzine from '../assets/magzine.avif'
 import Poster from '../assets/Poster.avif'
+import seeklogo from '../assets/seeklogo.avif'
+import iso from '../assets/iso.avif'
+import isologo from '../assets/isologo.avif'
+import rohslogo from '../assets/rohslogo.avif'
+import Euro from '../assets/Euro.avif'
+import tiger from '../assets/tiger.avif'
 
 
 export const assets = {
@@ -72,5 +78,11 @@ export const assets = {
     gym,
     msg,
     magzine,
-    Poster
-    }
+    Poster,
+    seeklogo,
+    iso,
+    isologo,
+    rohslogo,
+    Euro,
+    tiger
+}

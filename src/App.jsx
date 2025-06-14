@@ -10,6 +10,7 @@ import Experience from './components/Experience'
 import Magzine from './components/Magzine'
 import MapLocation from './components/MapLocation'
 import Information from './components/Information'
+import CertificatePerfection from './components/CertificatePerfection'
 
 function App() {
   const [themeMode, setThemeMode] = useState('light')
@@ -52,6 +53,7 @@ function App() {
       <Magzine/>
       <MapLocation/>
       <Information/>
+      <CertificatePerfection/>
     </ThemeProvider>
   )
 }
