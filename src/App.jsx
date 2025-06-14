@@ -13,6 +13,7 @@ import Information from './components/Information'
 import CertificatePerfection from './components/CertificatePerfection'
 import Certified from './components/Certified'
 import ImageGallery from './components/ImageGallery'
+import Brand from './components/Brand'
 
 function App() {
   const [themeMode, setThemeMode] = useState('light')
@@ -58,6 +59,7 @@ function App() {
       <CertificatePerfection/>
       <Certified/>
       <ImageGallery/>
+      <Brand/>
     </ThemeProvider>
   )
 }

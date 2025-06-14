@@ -45,6 +45,8 @@ import Group1 from '../assets/Group1.avif'
 import Group2 from '../assets/Group2.avif'
 import Group3 from '../assets/Group3.avif'
 import Group4 from '../assets/Group4.avif'
+import events from '../assets/events.avif'
+import SQFT from '../assets/SQFT.avif'
 
 
 export const assets = {
@@ -95,4 +97,6 @@ export const assets = {
     Group2,
     Group3,
     Group4,
+    SQFT,
+    events
 }

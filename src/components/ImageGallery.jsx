@@ -92,6 +92,52 @@ const ImageGallery = () => {
           </button>
         </div>
       )}
+      <div className="bg-white dark:bg-black py-10 px-4">
+        <div className="grid grid-cols-1 sm:grid-cols-2 gap-12 max-w-4xl mx-auto">
+          {/* Image 1 with Overlay */}
+          <div className="relative w-full h-64 sm:h-96 overflow-hidden">
+            <img
+              src={assets.events}
+              alt="Event 1"
+              className="w-full h-full object-cover"
+            />
+            <div className="absolute inset-0 bg-black/60 flex flex-col items-center justify-center text-center px-4">
+              <div className="w-[25%] border-t-3 border-red-600 mb-6"></div>
+              <h3 className="text-white text-lg sm:text-2xl font-semibold mb-2">
+                NEWS & EVENTS
+              </h3>
+              <p className="text-gray-200 text-sm sm:text-base mb-4 max-w-xs sm:max-w-md font-light">
+                With a vision of FIT INDIA, we help upcoming athletes grow on world stage
+              </p>
+              <button className="bg-white text-red-600 text-sm sm:text-base px-4 py-2 transition hover:bg-black hover:text-white dark:bg-red-600 dark:text-white dark:hover:bg-white dark:hover:text-red-600 uppercase font-semibold cursor-pointer">
+                Know More
+              </button>
+            </div>
+          </div>
+
+          {/* Image 2 with Overlay */}
+          <div className="relative w-full h-64 sm:h-96 overflow-hidden">
+            <img
+              src={assets.SQFT}
+              alt="Event 2"
+              className="w-full h-full object-cover"
+            />
+            <div className="absolute inset-0 bg-black/60 flex flex-col items-center justify-center text-center px-4">
+              <div className="w-[25%] border-t-3 border-red-600 mb-6"></div>
+              <h3 className="text-white text-lg sm:text-2xl font-semibold mb-2">
+                Build Your Own Gym
+              </h3>
+              <p className="text-gray-200 text-sm sm:text-base mb-4 max-w-xs sm:max-w-md font-light">
+                Based on your gym size and budget, view pre set gym packages designed by us to match your requirements.
+              </p>
+              <button className="bg-white text-red-600 text-sm sm:text-base px-4 py-2 transition hover:bg-black hover:text-white dark:bg-red-600 dark:text-white dark:hover:bg-white dark:hover:text-red-600 uppercase font-semibold cursor-pointer">
+                Build now
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+
     </div>
   );
 };
