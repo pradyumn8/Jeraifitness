@@ -9,6 +9,7 @@ import ArrivalProducts from './components/ArrivalProducts'
 import Experience from './components/Experience'
 import Magzine from './components/Magzine'
 import MapLocation from './components/MapLocation'
+import Information from './components/Information'
 
 function App() {
   const [themeMode, setThemeMode] = useState('light')
@@ -50,6 +51,7 @@ function App() {
       <Experience/>
       <Magzine/>
       <MapLocation/>
+      <Information/>
     </ThemeProvider>
   )
 }
