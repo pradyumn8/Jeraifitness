@@ -5,13 +5,30 @@ import menu_icon from './menu_icon.svg'
 import down from './down.png'
 import globe from './globe.avif'
 import cross_icon from './cross_icon.png'
+import assetImg1 from '../assets/1.avif';
+import assetImg2 from '../assets/2.avif';
+import assetImg5 from '../assets/5.avif';
+import assetImg6 from '../assets/6.avif';
+import assetImg8 from '../assets/8.avif';
+import assetImg9 from '../assets/9.avif';
+import assetImg10 from '../assets/10.avif';
 
-export const assets={
+
+
+export const assets = {
     Banner1,
     logo,
     image,
     menu_icon,
     down,
     globe,
-    cross_icon  
+    cross_icon,
+    assetImg1,
+    assetImg2,
+    assetImg5,
+    assetImg6,
+    assetImg9,
+    assetImg10,
+
+
 }

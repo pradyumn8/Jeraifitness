@@ -1,6 +1,15 @@
-@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&family=Outfit:wght@100..900&display=swap');
 @import "tailwindcss";
 @custom-variant dark (&:where(.dark, .dark *));
 *{
    font-family: "Outfit", sans-serif;
+}
+@font-face {
+  font-family: 'Ethnocentric';
+  src: url('./assets/fonts/EthnocentricRg-Italic.ttf') format('truetype');
+  font-weight: normal;
+  font-style: italic;
+}
+h1 {
+  font-family: 'Ethnocentric', sans-serif;
 }
