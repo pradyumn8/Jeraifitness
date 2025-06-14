@@ -40,6 +40,11 @@ import isologo from '../assets/isologo.avif'
 import rohslogo from '../assets/rohslogo.avif'
 import Euro from '../assets/Euro.avif'
 import tiger from '../assets/tiger.avif'
+import cerBANNER from '../assets/cerBANNER.avif'
+import Group1 from '../assets/Group1.avif'
+import Group2 from '../assets/Group2.avif'
+import Group3 from '../assets/Group3.avif'
+import Group4 from '../assets/Group4.avif'
 
 
 export const assets = {
@@ -84,5 +89,10 @@ export const assets = {
     isologo,
     rohslogo,
     Euro,
-    tiger
+    tiger,
+    cerBANNER,
+    Group1,
+    Group2,
+    Group3,
+    Group4,
 }

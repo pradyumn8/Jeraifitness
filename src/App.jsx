@@ -11,6 +11,8 @@ import Magzine from './components/Magzine'
 import MapLocation from './components/MapLocation'
 import Information from './components/Information'
 import CertificatePerfection from './components/CertificatePerfection'
+import Certified from './components/Certified'
+import ImageGallery from './components/ImageGallery'
 
 function App() {
   const [themeMode, setThemeMode] = useState('light')
@@ -54,6 +56,8 @@ function App() {
       <MapLocation/>
       <Information/>
       <CertificatePerfection/>
+      <Certified/>
+      <ImageGallery/>
     </ThemeProvider>
   )
 }
