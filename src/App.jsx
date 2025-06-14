@@ -8,6 +8,7 @@ import SentenceSwiper from './components/SentenceSwiper'
 import ArrivalProducts from './components/ArrivalProducts'
 import Experience from './components/Experience'
 import Magzine from './components/Magzine'
+import MapLocation from './components/MapLocation'
 
 function App() {
   const [themeMode, setThemeMode] = useState('light')
@@ -48,6 +49,7 @@ function App() {
       <ArrivalProducts/>
       <Experience/>
       <Magzine/>
+      <MapLocation/>
     </ThemeProvider>
   )
 }

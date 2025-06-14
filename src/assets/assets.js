@@ -33,6 +33,7 @@ import search from '../assets/search.avif'
 import gym from '../assets/gym.avif'
 import msg from '../assets/msg.avif'
 import magzine from '../assets/magzine.avif'
+import Poster from '../assets/Poster.avif'
 
 
 export const assets = {
@@ -70,5 +71,6 @@ export const assets = {
     search,
     gym,
     msg,
-    magzine
+    magzine,
+    Poster
     }
