@@ -8,9 +8,27 @@ import ProductItem from './components/ProductItem'
 function App() {
   const [themeMode, setThemeMode] = useState('light')
 
-  const lightTheme = () => setThemeMode('light')
-  const darkTheme = () => setThemeMode('dark')
-  
+  const lightTheme = () => {
+    setThemeMode('light')
+    localStorage.setItem('theme', 'light')
+  }
+
+  const darkTheme = () => {
+    setThemeMode('dark')
+    localStorage.setItem('theme', 'dark')
+  }
+
+  // Read from localStorage on first mount
+  useEffect(() => {
+    const savedTheme = localStorage.getItem('theme')
+    if (savedTheme === 'dark') {
+      setThemeMode('dark')
+    } else {
+      setThemeMode('light')
+    }
+  }, [])
+
+  // Apply theme class to <html>
   useEffect(() => {
     const html = document.documentElement
     html.classList.remove('light', 'dark')
@@ -18,13 +36,11 @@ function App() {
   }, [themeMode])
 
   return (
-    <>
-    <ThemeProvider value={{ themeMode, lightTheme, darkTheme }}>  
-        <Navbar />
-        <Hero/>
-        <ProductItem/>
+    <ThemeProvider value={{ themeMode, lightTheme, darkTheme }}>
+      <Navbar />
+      <Hero />
+      <ProductItem />
     </ThemeProvider>
-</>
   )
 }
 

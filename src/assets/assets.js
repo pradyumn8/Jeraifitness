@@ -15,6 +15,7 @@ import assetImg10 from '../assets/10.avif';
 import PTS from '../assets/PTS.avif'
 import Delt from '../assets/Delt.avif'
 import Treaadmills from '../assets/Treaadmills.avif'
+import Treapool from '../assets/Treapool.png'
 
 
 export const assets = {
@@ -34,5 +35,6 @@ export const assets = {
     assetImg10,
     PTS,
     Treaadmills,
+    Treapool,
     Delt
 }
