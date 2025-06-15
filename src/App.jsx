@@ -17,6 +17,7 @@ import Brand from './components/Brand'
 import FAQSection from './components/FAQSection'
 import Catlog from './components/Catlog'
 import Footer from './components/Footer'
+import EnquirePanel from './components/EnquirePanel'
 
 function App() {
   const [themeMode, setThemeMode] = useState('light')
@@ -66,6 +67,7 @@ function App() {
       <FAQSection/>
       <Catlog/>
       <Footer/>
+      <EnquirePanel/>
     </ThemeProvider>
   )
 }
