@@ -105,12 +105,13 @@ const Footer = () => {
 
           {/* Right */}
           <div className="w-full md:w-auto flex flex-col items-center md:items-end gap-3">
-            <div className="flex flex-wrap justify-center md:justify-end gap-4 text-gray-400 text-sm">
-              <span>Terms & Conditions</span>
-              <span>Cookie Policy</span>
-              <span>Legal Terms</span>
-              <span>Refund Policy</span>
-            </div>
+    <div className="grid grid-cols-1 md:grid-cols-2 gap-4 text-gray-400 text-sm text-center md:text-right">
+  <span>Terms & Conditions</span>
+  <span>Cookie Policy</span>
+  <span>Legal Terms</span>
+  <span>Refund Policy</span>
+</div>
+
             <p className="text-center md:text-right font-extralight text-gray-500">
               Designed & built with ❤️ by <span className="font-bold">EBR Agency</span>
             </p>
