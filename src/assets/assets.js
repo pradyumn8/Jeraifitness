@@ -49,6 +49,7 @@ import events from '../assets/events.avif'
 import SQFT from '../assets/SQFT.avif'
 import arrow_down from '../assets/arrow_down.png'
 import arrow_up from '../assets/arrow_up.png'
+import catalogImage from '../assets/catalogImage.avif'
 
 
 export const assets = {
@@ -102,5 +103,6 @@ export const assets = {
     SQFT,
     events,
     arrow_up,
-    arrow_down
+    arrow_down,
+    catalogImage
 }

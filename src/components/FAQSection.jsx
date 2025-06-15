@@ -79,8 +79,8 @@ const FAQSection = () => {
       ))}
 
       {/* Popular Searches */}
-      <div className="w-[80%] mx-auto mt-6 text-center text-sm text-black dark:text-gray-500 font-light">
-        <span className="text-black  dark:text-gray-500 font-light">Popular Searches :</span>{' '}
+      <div className="w-[80%] mx-auto my-10 text-center text-xs text-black dark:text-gray-500 font-light">
+        <span className="text-black  dark:text-gray-500 font-mono">Popular Searches :</span>{' '}
         {popularSearches.map((term, i) => (
           <span key={i}>
             {term}
