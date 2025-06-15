@@ -47,6 +47,8 @@ import Group3 from '../assets/Group3.avif'
 import Group4 from '../assets/Group4.avif'
 import events from '../assets/events.avif'
 import SQFT from '../assets/SQFT.avif'
+import arrow_down from '../assets/arrow_down.png'
+import arrow_up from '../assets/arrow_up.png'
 
 
 export const assets = {
@@ -98,5 +100,7 @@ export const assets = {
     Group3,
     Group4,
     SQFT,
-    events
+    events,
+    arrow_up,
+    arrow_down
 }
