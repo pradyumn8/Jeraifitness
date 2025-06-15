@@ -64,7 +64,7 @@ const EnquirePanel = () => {
           <div className="p-4 overflow-y-auto flex-1">
             {activeTab === 'form' && (
               <form onSubmit={onSubmit} className="flex flex-col gap-3">
-                <input type="text" name="name" placeholder="Name" required className="border p-2 rounded" />
+                <input type="text" name="name" placeholder="Name" required className="border  p-2 rounded" />
                 <input type="email" name="email" placeholder="Email" required className="border p-2 rounded" />
                 <textarea name="message" placeholder="Message" rows="3" required className="border p-2 rounded" />
                 

@@ -37,7 +37,7 @@ const ImageGallery = () => {
         </p>
       </div>
       {/* Image Grid */}
-      <div className="grid grid-cols-2 sm:grid-cols-4 gap-2 max-w-7xl mx-auto">
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-4 max-w-7xl mx-auto">
         {images.map((img, index) => (
           <div
             key={index}
@@ -52,9 +52,6 @@ const ImageGallery = () => {
           </div>
         ))}
       </div>
-
-
-
       {/* Fullscreen Viewer */}
       {isOpen && (
         <div className="fixed inset-0 bg-black/70 backdrop-blur-sm flex items-center justify-center z-50">

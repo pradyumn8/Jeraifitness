@@ -25,8 +25,8 @@ const faqData = [
   {
     question: "How can you purchase gym equipment from Jerai Fitness?",
     answer:
-    "Purchasing from Jerai Fitness is simple and convenient. You can explore our extensive product range on our official website, where you can either request a quote or make an inquiry. We’re also here to guide you in selecting the right equipment, whether you’re setting up a small home gym or outfitting a large commercial facility."
-},
+      "Purchasing from Jerai Fitness is simple and convenient. You can explore our extensive product range on our official website, where you can either request a quote or make an inquiry. We’re also here to guide you in selecting the right equipment, whether you’re setting up a small home gym or outfitting a large commercial facility."
+  },
 ];
 
 const popularSearches = [
@@ -79,15 +79,20 @@ const FAQSection = () => {
       ))}
 
       {/* Popular Searches */}
-      <div className="w-[80%] mx-auto my-10 text-center text-xs text-black dark:text-gray-500 font-light">
-        <span className="text-black  dark:text-gray-500 font-mono">Popular Searches :</span>{' '}
-        {popularSearches.map((term, i) => (
-          <span key={i}>
-            {term}
-            {i < popularSearches.length - 1 && ' | '}
-          </span>
-        ))}
+      <div className="w-[90%] sm:w-[80%] mx-auto my-10 text-center text-xs text-black dark:text-gray-500 font-light">
+        <div className="flex flex-wrap justify-center gap-x-2 gap-y-2 mt-2">
+          <span className="text-black dark:text-gray-500 font-mono block sm:inline">
+            Popular Searches :
+          </span>{' '}
+          {popularSearches.map((term, i) => (
+            <span key={i} className="whitespace-nowrap">
+              {term}
+              {i < popularSearches.length - 1 && ' | '}
+            </span>
+          ))}
+        </div>
       </div>
+
     </div>
   );
 };
